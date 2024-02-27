@@ -5,9 +5,158 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
+  font-family: 'Titillium Web', sans-serif;
+  background-image: url(../public/fruits.jpg);
+  background-repeat: no repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  border-radius: 20px;
+}
+
+button {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.App {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.block {
+  background-color: rgba(238, 235, 235, 0.541);
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.fruitContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.btnAdd {
+  margin: 5px;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.btnAdd:hover {
+  background-color: green;
+}
+
+.filterContainer, .cartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categoryButton {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.categoryButton:hover {
+  background-color: #fdeb6b;;
+  cursor: pointer;
+}
+
+.categoryButtonSelected {
+  background-color: green;
+}
+
+.HeaderTotal {
+  font-size: 22px;
+}
+
+.QuantityContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnQuantity {
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 10px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.btnQuantity:hover {
+  background-color: #fdeb6b;
+}
+
+.pricePar {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.CartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cartName {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.btnDelete {
+  background-color: transparent;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.btnDelete:hover {
+  background-color: red;
+}
+
+.quantityPar {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.priceCartPar {
+  font-size: 18px;
+}
+
+@media all and (max-width: 500px) {
+  /* .App {
+      display: flex;
+      flex-direction: column;
+    } */
+    .fruitPhoto {
+      width: 300px;
+    }
 }
