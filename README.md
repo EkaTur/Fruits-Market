@@ -2,6 +2,10 @@
 
 Fruit Shop is an interactive web application that allows users to browse and purchase fruits online. Users can explore various categories of fruits, add them to their cart, and manage the quantity of selected items.
 
+## Live Demo
+
+You can check out the live version of this website [here](https://freshfruits-market.netlify.app/).
+
 ## Features
 
 - Browse and select fruits from different categories.
