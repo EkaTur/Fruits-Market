@@ -1,4 +1,4 @@
-# Fruit Shop
+# Fruits Shop
 
 Fruit Shop is an interactive web application that allows users to browse and purchase fruits online. Users can explore various categories of fruits, add them to their cart, and manage the quantity of selected items.
 
